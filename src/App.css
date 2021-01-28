@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  width: 90vw;
+  margin: 1em auto;
+  max-width: var(--max-width);
+}
+
+h1 {
+  font-size: 2.5rem;
+  display: inline-block;
+  position: relative;
+}
+
+h1:after {
+  content: "";
+  height: 3px;
+  width: 50%;
+  background-color: blue;
+  position: absolute;
+  bottom: -.3em;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.card {
+  width: 620px;
+  margin: 3em auto;
+}
